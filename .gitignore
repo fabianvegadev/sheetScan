@@ -1,0 +1,60 @@
+# Entornos virtuales
+venv/
+.env/
+*.env
+*.venv
+rpa-reps-env/
+
+# Archivos de configuración locales
+*.local
+*.log
+
+# Archivos temporales
+*.py[cod]
+__pycache__/
+*.so
+*.pyd
+*.pyo
+*.db
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Archivos generados
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.json
+*.zip
+*.tar.gz
+*.egg-info/
+
+# Carpetas de salida o informes
+output/
+reports/
+*.pdf
+
+# IDEs y editores
+.vscode/
+.idea/
+
+# PyInstaller
+dist/
+build/
+
+# mypy y otros análisis estáticos
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# GitHub-specific
+*.tgz
+*.tar.gz
